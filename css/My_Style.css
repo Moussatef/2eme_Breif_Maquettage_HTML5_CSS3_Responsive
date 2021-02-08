@@ -102,6 +102,8 @@ color: #fff;
     font-size:40px;
     color: #0E0C0C;
     animation: slide 30s infinite;
+    
+
 
 }
 
@@ -123,31 +125,18 @@ color: #fff;
 
     33.33% {
         font-size: 80px;
+        transform: rotateX(300deg);
+        transform: rotateY(360deg);
     }
 
     44.44% {
         font-size: 90px;
+        transform: rotateY(360deg);
+        transform: rotateX(300deg);
+        
     }
 
-    55.55% {
-        font-size: 80px;
-    }
-
-    66.66% {
-        font-size: 70px;
-    }
-
-    77.77% {
-        font-size: 60px;
-    }
-
-    88.88% {
-        font-size: 50px;
-    }
-
-    99.99% {
-        font-size: 40px;
-    }
+   
 }
 .box_insc{
 display:inline-flex ;
