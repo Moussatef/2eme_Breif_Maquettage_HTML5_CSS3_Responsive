@@ -87,10 +87,14 @@ color: #fff;
     margin-bottom: 10px;
     border-radius: 20px 0px 20px 0px;
 }
+.our_gr h2{
+    padding-top: 15px;
+
+}
 .contant_books{
     justify-content: center;
     display: flex;
-    width: 72rem;
+    flex-wrap: wrap;
     background: cornflowerblue;
     margin:20px 50px ;
 }
@@ -98,17 +102,60 @@ color: #fff;
     width: 16rem;
     background: rgb(255, 255, 255);
     margin: 2rem;
+    border: solid #383838 1.4px;
+}
+.contant_books .c-left{
+    border-radius: 50px 0 0 0;
+}
+.contant_books .c-right{
+    border-radius: 0  50px 0 0;
 }
 .contant_books .card .image_bk{
+    transition: 500ms;
     width: 100%;
     height: 10rem;
     background: url(/images/Library-.jpg);
+    filter:contrast(50%);
     background-size: cover;
     overflow: hidden;
+}
+.contant_books .card .img-rghit{
+    border-radius: 0px 50px 0 0;
+}
+.contant_books .card .img-left{
+    border-radius: 50px 0 0px 0;
+}
+.contant_books .card .image_bk:hover{
+    transition: 600ms;
+    filter:contrast(100%);
 }
 .contant_books .card h3{
     text-align: center;
 }
-.contant_books .card{
-    
+.contant_books .card p{
+font-size: 16;
+text-align: left;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+color: #141012;
+}
+.d-btn{
+justify-content: right;
+display: flex;
+margin: 5px;
+}
+.d-btn a{
+width: 150px;
+font-size: 12px;
+padding: 10px 0px;
+background-color: #81256c;
+color: #fff;
+display: inline-block;
+line-height: 20px;
+border-radius: 30px;
+text-align: center;
+margin-top: 5px;
+}
+.d-btn a:hover{
+background-color: #000000;
 }
