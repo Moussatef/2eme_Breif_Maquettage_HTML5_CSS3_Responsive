@@ -1,8 +1,13 @@
 
-
-
-
-
+.header_C{
+    padding: 15px 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #111;
+}
 
 .hero_count{
     
@@ -25,15 +30,6 @@
 .hero_div img{
     margin-top: 0.8rem;
 }
-.header_C{
-    padding: 15px 0px;
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: #111;
-}
 
 .hero_div h1{
 margin-top: 0;
@@ -49,6 +45,22 @@ padding-bottom: 35px;
 font-family:'poppins', sans-serif;
 font-size: 18px;
 line-height: 30px;
+color: #fff;
+}
+.btn_rm{
+background: transparent;
+color: #fff;
+padding: 15px 60px 15px 60px;
+float: left;
+font-size: 15px;
+font-weight: 400;
+border: solid #fff 2px;
+border-radius: 30px;
+margin: 63px 0px 60px 0px;
+}
+.btn_rm:hover{
+background: #000;
+border: solid #000 2px;
 color: #fff;
 }
 .icon_M{
