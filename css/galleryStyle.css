@@ -160,3 +160,15 @@ margin-top: 5px;
 .d-btn a:hover{
 background-color: #000000;
 }
+
+
+.new-book{
+
+    background: url(/images/Rectangle\ 1865.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background: cornflowerblue;
+    margin:20px 50px ;
+}
