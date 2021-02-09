@@ -104,11 +104,17 @@ color: #fff;
     margin: 2rem;
     border: solid #383838 1.4px;
 }
-.contant_books .c-left{
+.contant_books .c-left , .contant_books .card .img-left{
     border-radius: 50px 0 0 0;
 }
-.contant_books .c-right{
+.contant_books .c-right ,.contant_books .card .img-rghit{
     border-radius: 0  50px 0 0;
+}
+.contant_books .c-left-bottm , .contant_books .card .img-left-bottm{
+    border-radius: 0 0 0 20px ;
+}
+.contant_books .c-right-bottm ,.contant_books .card .img-rghit-bottm{
+    border-radius: 0  0  20px 0;
 }
 .contant_books .card .image_bk{
     transition: 500ms;
@@ -119,12 +125,7 @@ color: #fff;
     background-size: cover;
     overflow: hidden;
 }
-.contant_books .card .img-rghit{
-    border-radius: 0px 50px 0 0;
-}
-.contant_books .card .img-left{
-    border-radius: 50px 0 0px 0;
-}
+
 .contant_books .card .image_bk:hover{
     transition: 600ms;
     filter:contrast(100%);
