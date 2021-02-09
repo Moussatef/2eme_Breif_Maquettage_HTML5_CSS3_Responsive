@@ -41,7 +41,7 @@ body{
 }
 
 .hero_div h1{
-    margin-top: 0;
+margin-top: 0;
 font-family:'poppins', sans-serif;
 font-size: 51px;
 line-height: 72px;
@@ -63,7 +63,6 @@ color: #fff;
     margin-left: 34%;
     padding: 0;
     width: 100%;
-    
     display: flex;
 }
 .icon_M img{
