@@ -70,6 +70,32 @@ color: #fff;
     height: auto;
     margin-right: 10px;
 }
+#clockdiv{
+	font-family: sans-serif;
+	color: #0E0C0C;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 105px;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+    border-radius: 105px;
+	display: inline-block;
+    animation: slide 30s infinite;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
 .cercle3{
     display: inline-flex;
     flex-wrap: wrap;
@@ -119,19 +145,15 @@ color: #fff;
     }
 
     22.22% {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     33.33% {
-        font-size: 80px;
-        transform: rotateX(300deg);
-        transform: rotateY(360deg);
+        font-size: 60px;
     }
 
     44.44% {
-        font-size: 90px;
-        transform: rotateY(360deg);
-        transform: rotateX(300deg);
+        font-size: 70px;
         
     }
 
@@ -216,7 +238,7 @@ margin: 50px 20px;
     background: url(../images/rect.jpg);
     background-size: cover;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 150px;
     margin-top: 50px;
     flex-flow: wrap;
 }
