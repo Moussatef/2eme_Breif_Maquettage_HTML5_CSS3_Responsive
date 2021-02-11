@@ -120,7 +120,7 @@ color: #fff;
     border-radius: 20px 0px 20px 0px;
 }
 .our_gr h2{
-    padding-top: 15px;
+    padding-top: 17px;
 
 }
 .contant_books{
@@ -164,7 +164,7 @@ color: #fff;
     text-align: center;
 }
 .contant_books .card p{
-font-size: 16;
+font-size: 17;
 text-align: left;
 margin-left: 0.5rem;
 margin-bottom: 0.5rem;
@@ -232,12 +232,20 @@ background-color: #000000;
     margin: 10px auto 20px 13.5vw ;
     width: 72vw;
 }
+.all_art{
+    width: 700px;
+    height: 300px;
+    margin: 2% auto 10%;
+    overflow: hidden;
+   border-radius: 100px 0 100px 0;
+
+}
  
 .mor_art {
+    width: 1000px;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
-    margin-left: 4vw;
-    margin-right: auto;
+    /* grid-template-columns: 225px 225px 225px 225px 225px 225px 225px; */
     margin-bottom: 150px;
 
 }
@@ -247,17 +255,33 @@ background-color: #000000;
     margin: 20px;
     -webkit-box-shadow: 15px 10px 16px -2px rgba(99, 99, 99, 0.61); 
     box-shadow: 15px 10px 16px -2px rgba(70, 70, 70, 0.61);
+    animation: morebook 25s infinite alternate-reverse;
 }
+
+ 
+
+
+
 .mor_art .m_art1 img{
     
-    width:16rem;
-    height: 150px;
+    width:15rem;
+    height: 160px;
 }
-.m_art1:hover{
+/* .m_art1:hover{
     transition: 800ms;
     transform: scale(1.3);
-    margin-left: 50px;
-    margin-right: 50px;
     overflow: hidden;
-}
+} */
    
+@keyframes morebook {
+    from{
+        transition: 8000ms;
+        transform: translateX(0);
+    }
+    to{
+        transition: 800ms;
+        transform: scale(1.18);
+        transform: translateX(-1200px);
+        
+    }
+}
