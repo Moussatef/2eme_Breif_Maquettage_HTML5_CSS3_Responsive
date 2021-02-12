@@ -218,7 +218,7 @@ background-color: #000000;
     margin-left: auto;
     margin-right: auto;
 }
-.evnt-img1 img{
+.evnt-img1 .img_E img{
     width: 100%;
 }
 .evnt-img1{
@@ -237,13 +237,13 @@ background-color: #000000;
 
 @keyframes evntss {
     from{
-        transition: 8000ms;
+       
         transform: translateX(0);
     }
     to{
-        transition: 800ms;
-        transform: translateX(-72vw);
-        
+       
+        transform: translateX(-170vw);
+     
     }
 }
 

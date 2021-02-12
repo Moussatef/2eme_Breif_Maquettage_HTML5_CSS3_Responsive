@@ -233,25 +233,30 @@ margin: 50px 20px;
     height: 19rem;
 }
 .div_map{
-    text-align: justify;
-    display: inline-flex;
+    text-align: center;
     background: url(../images/rect.jpg);
     background-size: cover;
     width: 100%;
-    margin-bottom: 150px;
+    height:200px;
+    margin-bottom: 50px;
     margin-top: 50px;
     flex-flow: wrap;
 }
-.map_img img{
+/* .map_img img{
 width: 490px;
 height: 290px;
 margin: 50px 20px;
 
+} */
+.mapG{
+    width: 40%;
+    margin: 1% auto 140px ;
+    
 }
 .prg{
     color: #FFFFFF;
-    margin: 50px;
-    margin-top: 130px;
-    width: 50%;
+    width: 40%;
+    margin: 1% auto 140px ;
+    padding-top:20px;
 }
 
